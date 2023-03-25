@@ -1,0 +1,179 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+h1{
+    padding-left: 73.25px;
+}
+
+header{
+
+    background: #bbbb;
+    padding: 20px 0px;
+}
+
+ul{
+  padding-right: 73.25px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: auto;
+
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0  15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    position: static;      
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+
+.produtos li:hover{
+    border-color:#c78c19 ;
+
+}
+
+.produtos li:active{
+    border-color: #088c19;
+}
+
+
+    
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2 {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.valor{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10;
+
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+   margin: 40px 0;
+    
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.inputpadrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checbox{
+    margin: 20px 0;
+}
+
+.opcoes{
+    margin: 7px;
+}
+
+.enviar{
+    width: 40%;
+    background: orange;
+    padding: 10px 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scaleX(1.1);
+}
+    
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    font-size: 15px;
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    
+}
+
